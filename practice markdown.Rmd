@@ -1,0 +1,40 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+## Load packages 
+
+I installed and read important packages for my data
+
+```{r}
+library(readxl)     # load readxl, for reading Excel files
+library(tidyverse)  # load tidyverse, for working with datasets
+
+```
+
+##Read the data
+
+Next I read the finches data
+
+```{r}
+finches <- read_excel("finches_data.xlsx")
+```
+
+The finch data was printed 
+
+```{r}
+finches
+```
+
+I then looked at the variables within the dataset
+```{r}
+glimpse(finches)
+```
+
+## Histogram
+```{r cars}
+summary(cars)
+```
+
+Including Plots
